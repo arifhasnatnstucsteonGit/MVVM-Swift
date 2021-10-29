@@ -101,12 +101,13 @@
 		4F93D74E272BF72100A1437C /* MVVM_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				4F93D74F272BF72100A1437C /* AppDelegate.swift */,
-				4F93D751272BF72100A1437C /* SceneDelegate.swift */,
-				4F93D753272BF72100A1437C /* ViewController.swift */,
-				4F93D755272BF72100A1437C /* Main.storyboard */,
-				4F93D75B272BF72300A1437C /* Assets.xcassets */,
-				4F93D75D272BF72300A1437C /* LaunchScreen.storyboard */,
+				4F93D788272BF8DD00A1437C /* Storyboard */,
+				4F93D787272BF8D400A1437C /* Assests */,
+				4F93D786272BF8B700A1437C /* Network */,
+				4F93D785272BF7C600A1437C /* Models */,
+				4F93D784272BF78400A1437C /* ViewCotroller */,
+				4F93D783272BF77900A1437C /* ViewModels */,
+				4F93D782272BF76400A1437C /* Delegates */,
 				4F93D760272BF72300A1437C /* Info.plist */,
 				4F93D758272BF72100A1437C /* MVVM_Swift.xcdatamodeld */,
 			);
@@ -128,6 +129,61 @@
 				4F93D775272BF72300A1437C /* MVVM_SwiftUITestsLaunchTests.swift */,
 			);
 			path = MVVM_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		4F93D782272BF76400A1437C /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4F93D751272BF72100A1437C /* SceneDelegate.swift */,
+				4F93D74F272BF72100A1437C /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4F93D783272BF77900A1437C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4F93D784272BF78400A1437C /* ViewCotroller */ = {
+			isa = PBXGroup;
+			children = (
+				4F93D753272BF72100A1437C /* ViewController.swift */,
+			);
+			path = ViewCotroller;
+			sourceTree = "<group>";
+		};
+		4F93D785272BF7C600A1437C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F93D786272BF8B700A1437C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4F93D787272BF8D400A1437C /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				4F93D75B272BF72300A1437C /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		4F93D788272BF8DD00A1437C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4F93D755272BF72100A1437C /* Main.storyboard */,
+				4F93D75D272BF72300A1437C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
