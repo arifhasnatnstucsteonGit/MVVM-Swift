@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F8F5014272CDD4600CB3A09 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F5013272CDD4600CB3A09 /* ApiCall.swift */; };
 		4F93D750272BF72100A1437C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F93D74F272BF72100A1437C /* AppDelegate.swift */; };
 		4F93D752272BF72100A1437C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F93D751272BF72100A1437C /* SceneDelegate.swift */; };
 		4F93D754272BF72100A1437C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F93D753272BF72100A1437C /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 		4F93D76A272BF72300A1437C /* MVVM_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F93D769272BF72300A1437C /* MVVM_SwiftTests.swift */; };
 		4F93D774272BF72300A1437C /* MVVM_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F93D773272BF72300A1437C /* MVVM_SwiftUITests.swift */; };
 		4F93D776272BF72300A1437C /* MVVM_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F93D775272BF72300A1437C /* MVVM_SwiftUITestsLaunchTests.swift */; };
+		4F93D78A272C026A00A1437C /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F93D789272C026A00A1437C /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F8F5013272CDD4600CB3A09 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
 		4F93D74C272BF72100A1437C /* MVVM_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F93D74F272BF72100A1437C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F93D751272BF72100A1437C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		4F93D76F272BF72300A1437C /* MVVM_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F93D773272BF72300A1437C /* MVVM_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SwiftUITests.swift; sourceTree = "<group>"; };
 		4F93D775272BF72300A1437C /* MVVM_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F93D789272C026A00A1437C /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,7 @@
 		4F93D785272BF7C600A1437C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4F93D789272C026A00A1437C /* Contacts.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 		4F93D786272BF8B700A1437C /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				4F8F5013272CDD4600CB3A09 /* ApiCall.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -321,6 +327,8 @@
 				4F93D75A272BF72100A1437C /* MVVM_Swift.xcdatamodeld in Sources */,
 				4F93D750272BF72100A1437C /* AppDelegate.swift in Sources */,
 				4F93D752272BF72100A1437C /* SceneDelegate.swift in Sources */,
+				4F8F5014272CDD4600CB3A09 /* ApiCall.swift in Sources */,
+				4F93D78A272C026A00A1437C /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
